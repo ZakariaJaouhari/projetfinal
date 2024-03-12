@@ -8,6 +8,7 @@
     width: 250px;
     height: 100vh;
     background-color: #43639ae2;
+    /* background-color: #142b77; */
     position: fixed;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
@@ -97,7 +98,7 @@ span{
 }
 #logout{
     position: relative;
-    top: 200px;
+    top: 100px;
 }
 .demande{
     margin-left: 5px;
