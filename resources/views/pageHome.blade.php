@@ -33,6 +33,11 @@
             </li>
             <li>
                 <a href="#">
+                <img class="logos groupes" src="groupe.png" alt="">
+                <img class="logos groupes hv" src="groupe-hover.png" alt="">Groupes</a>
+            </li>
+            <li>
+                <a href="#">
                 <img class="logos module" src="module.png" alt="">
                 <img class="logos module hv" src="module-hover.png" alt="">Modules</a>
             </li>
