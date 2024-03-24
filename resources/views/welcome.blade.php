@@ -14,14 +14,15 @@
     <div class="container" id="container">
         
         <div class="form-container sign-up">
-            <form>
+            <form action="createnew" method="POST">
+                @csrf
                 <h1>S’inscrire</h1>
                 <p>C’est rapide et facile.</p>
-                <input type="text" placeholder="Nom d'école">
-                <input type="text" placeholder="Nom complet de directeur">
-                <input type="email" placeholder="Adresse email">
-                <input type="password" placeholder="Mot de passe">
-                <input type="password" placeholder="Confirmer le mot de passe">
+                <input name="nom_ecole" type="text" placeholder="Nom d'école">
+                <input name="nom_directeur" type="text" placeholder="Nom complet de directeur">
+                <input name="email" type="email" placeholder="Adresse email">
+                <input name="password" type="password" placeholder="Mot de passe">
+                <input name="confrimation_password" type="password" placeholder="Confirmer le mot de passe">
                 <button>s'inscrire</button>
             </form>
         </div>
