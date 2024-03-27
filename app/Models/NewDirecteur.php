@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class NewDirecteur extends Model
+class Newdirecteur extends Model
 {
     use HasFactory;
     protected $table = 'directeurs';

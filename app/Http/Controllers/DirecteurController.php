@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\NewDirecteur;
+use App\Models\Newdirecteur;
 use Illuminate\Http\Request;
 
 class DirecteurController extends Controller
@@ -20,10 +20,9 @@ class DirecteurController extends Controller
 
 
         ]);
-
-
+        dd('nom_ecole');
     
-        NewDirecteur::create([
+        Newdirecteur::create([
             'nom_ecole' => $validatedData['nom_ecole'],
             'nom_directeur' => $validatedData['nom_directeur'],
             'email' => $validatedData['email'],
